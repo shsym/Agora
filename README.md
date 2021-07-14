@@ -260,7 +260,7 @@ The steps to collect and analyze timestamp traces are as follows:
     to different values to collect different data points in the figures. 
   * Generate source data files by running
     <pre>
-    $ ./build/data_generator --conf_file data/tddconfig-sim-ul.json`.
+    $ ./build/data_generator --conf_file data/tddconfig-sim-ul.json
     </pre>
   * Run Agora as a real-time process (to prevent OS from doing context switches) using 
     <pre>
